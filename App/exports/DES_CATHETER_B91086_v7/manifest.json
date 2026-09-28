@@ -1,0 +1,47 @@
+{
+  "app_name": "MediCAD",
+  "app_version": "0.1.0",
+  "design_id": "DES_CATHETER_B91086",
+  "version": 7,
+  "timestamp_utc": "2026-08-14T19:52:43.400594+00:00",
+  "device_type": "catheter",
+  "template_name": "deterministic_catheter_v1",
+  "template_version": "1.0.0",
+  "authoritative_cad_file": "catheter_v7.step",
+  "preview_mesh_file": "catheter_v7.stl",
+  "specification": {
+    "device_type": "catheter",
+    "units": "mm",
+    "tolerance_mm": 0.05,
+    "notes": "",
+    "length_mm": 280.0,
+    "outer_diameter_mm": 3.0,
+    "inner_diameter_mm": 2.5,
+    "tip_length_mm": 12.5,
+    "tip_outer_diameter_mm": null,
+    "tip_angle_deg": 0.0,
+    "has_luer_hub": true,
+    "hub_length_mm": 15.0
+  },
+  "cad_derived_properties": {
+    "french_size_fr": 9.0,
+    "shaft_wall_thickness_mm": 0.25,
+    "tip_outer_diameter_mm": 2.6,
+    "tip_length_mm": 12.5,
+    "has_luer_hub": true,
+    "total_effective_length_mm": 295.0,
+    "aspect_ratio": 93.33333333333333
+  },
+  "validation_summary": {
+    "passed": true,
+    "device_type": "catheter",
+    "solid_valid": true,
+    "wall_thickness_mm": 0.25,
+    "total_volume_mm3": 654.7275439621977,
+    "total_surface_area_mm2": 5339.622760625905,
+    "aspect_ratio": 93.33333333333333,
+    "issues": [],
+    "timestamp": "2026-08-14T19:52:43.391252+00:00"
+  },
+  "regulatory_disclaimer": "Engineering prototyping artifact. Not approved for clinical or in-vivo medical use."
+}

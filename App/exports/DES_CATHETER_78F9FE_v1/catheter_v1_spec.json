@@ -1,0 +1,14 @@
+{
+  "device_type": "catheter",
+  "units": "mm",
+  "tolerance_mm": 0.05,
+  "notes": "",
+  "length_mm": 150.0,
+  "outer_diameter_mm": 2.0,
+  "inner_diameter_mm": 1.2,
+  "tip_length_mm": 5.0,
+  "tip_outer_diameter_mm": null,
+  "tip_angle_deg": 0.0,
+  "has_luer_hub": true,
+  "hub_length_mm": 15.0
+}

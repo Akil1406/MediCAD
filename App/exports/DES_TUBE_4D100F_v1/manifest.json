@@ -1,0 +1,42 @@
+{
+  "app_name": "MediCAD",
+  "app_version": "0.1.0",
+  "design_id": "DES_TUBE_4D100F",
+  "version": 1,
+  "timestamp_utc": "2026-08-14T16:05:29.099968+00:00",
+  "device_type": "tube",
+  "template_name": "deterministic_tube_v1",
+  "template_version": "1.0.0",
+  "authoritative_cad_file": "tube_v1.step",
+  "preview_mesh_file": "tube_v1.stl",
+  "specification": {
+    "device_type": "tube",
+    "units": "mm",
+    "tolerance_mm": 0.05,
+    "notes": "",
+    "length_mm": 100.0,
+    "outer_diameter_mm": 3.0,
+    "inner_diameter_mm": 2.0
+  },
+  "cad_derived_properties": {
+    "wall_thickness_mm": 0.5,
+    "outer_radius_mm": 1.5,
+    "inner_radius_mm": 1.0,
+    "cross_sectional_area_mm2": 3.9269908169872414,
+    "lumen_volume_mm3": 314.1592653589793,
+    "material_volume_mm3": 392.6990816987241,
+    "aspect_ratio": 33.333333333333336
+  },
+  "validation_summary": {
+    "passed": true,
+    "device_type": "tube",
+    "solid_valid": true,
+    "wall_thickness_mm": 0.5,
+    "total_volume_mm3": 392.6990816987241,
+    "total_surface_area_mm2": 1578.6503084288709,
+    "aspect_ratio": 33.333333333333336,
+    "issues": [],
+    "timestamp": "2026-08-14T16:05:29.086847+00:00"
+  },
+  "regulatory_disclaimer": "Engineering prototyping artifact. Not approved for clinical or in-vivo medical use."
+}

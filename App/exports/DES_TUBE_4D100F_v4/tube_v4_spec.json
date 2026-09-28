@@ -1,0 +1,9 @@
+{
+  "device_type": "tube",
+  "units": "mm",
+  "tolerance_mm": 0.05,
+  "notes": "",
+  "length_mm": 160.0,
+  "outer_diameter_mm": 4.3,
+  "inner_diameter_mm": 3.7
+}

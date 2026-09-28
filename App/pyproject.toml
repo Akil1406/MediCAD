@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "medcad"
+version = "0.1.0"
+description = "Parametric CAD Prototyping and Engineering Analysis Assistant for Medical Devices"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pydantic>=2.7.0",
+    "numpy>=1.26.0",
+    "trimesh>=4.0.0",
+    "streamlit>=1.35.0",
+    "langchain>=0.2.0",
+    "langchain-core>=0.2.0",
+    "langgraph>=0.1.0",
+    "pandas>=2.2.0",
+    "python-dotenv>=1.0.0",
+    "pytest>=8.0.0"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "ruff>=0.4.0"
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

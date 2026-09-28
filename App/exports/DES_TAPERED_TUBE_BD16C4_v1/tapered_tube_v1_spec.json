@@ -1,0 +1,10 @@
+{
+  "device_type": "tapered_tube",
+  "units": "mm",
+  "tolerance_mm": 0.05,
+  "notes": "",
+  "length_mm": 120.0,
+  "proximal_outer_diameter_mm": 4.0,
+  "distal_outer_diameter_mm": 2.0,
+  "inner_diameter_mm": 1.2
+}
